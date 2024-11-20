@@ -4,46 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knowledge Base</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            margin: auto;
+            max-width: 800px;
+            padding: 1rem;
+        }
+        h2 {
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+            padding: 0.75rem;
+            transition: background-color 0.3s ease;
+        }
+        ul li:hover {
+            background-color: #e9ecef;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Knowledge Base</h1>
-    <p>Welcome to the knowledge base repository. This repository aims to organize and store various knowledge resources.</p>
-    
-    <h2>Contents</h2>
-    <ul>
-        <li><a href="#programming-languages">Programming Languages</a></li>
-        <li><a href="#cybersecurity">Cybersecurity</a></li>
-        <li><a href="#cloud-computing">Cloud Computing</a></li>
-        <li><a href="#tools-and-utilities">Tools and Utilities</a></li>
-    </ul>
-    
-    <h2 id="programming-languages">Programming Languages</h2>
-    <ul>
-        <li>Python</li>
-        <li>Powershell</li>
-        <li>Bash</li>
-    </ul>
-    
-    <h2 id="cybersecurity">Cybersecurity</h2>
-    <ul>
-        <li>Incident Response</li>
-        <li>Threat Detection</li>
-        <li>Malware Analysis</li>
-    </ul>
-    
-    <h2 id="cloud-computing">Cloud Computing</h2>
-    <ul>
-        <li>AWS</li>
-        <li>Azure</li>
-        <li>AliCould</li>
-    </ul>
-    
-    <h2 id="tools-and-utilities">Tools and Utilities</h2>
-    <ul>
-        <li>Git</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-    </ul>
-    
+    <header>
+        <h1>Knowledge Base</h1>
+    </header>
+    <div class="container">
+        <p>Welcome to the knowledge base repository. This repository aims to organize and store various knowledge resources.</p>
+        
+        <h2>Contents</h2>
+        <ul>
+            <li><a href="#programming-languages">Programming Languages</a></li>
+            <li><a href="#cybersecurity">Cybersecurity</a></li>
+            <li><a href="#cloud-computing">Cloud Computing</a></li>
+            <li><a href="#tools-and-utilities">Tools and Utilities</a></li>
+        </ul>
+        
+        <h2 id="programming-languages">Programming Languages</h2>
+        <ul>
+            <li>Python</li>
+            <li>Powershell</li>
+            <li>Bash</li>
+        </ul>
+        
+        <h2 id="cybersecurity">Cybersecurity</h2>
+        <ul>
+            <li>Incident Response</li>
+            <li>Threat Detection</li>
+            <li>Malware Analysis</li>
+        </ul>
+        
+        <h2 id="cloud-computing">Cloud Computing</h2>
+        <ul>
+            <li>AWS</li>
+            <li>Azure</li>
+            <li>AliCould</li>
+        </ul>
+        
+        <h2 id="tools-and-utilities">Tools and Utilities</h2>
+        <ul>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+        </ul>
+    </div>
 </body>
 </html>
